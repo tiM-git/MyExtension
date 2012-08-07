@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.1">
+    <Name>AgentTime</Name>
+    <Version>0.0.1</Version>
+    <Vendor>tiM.test</Vendor>
+    <URL>http://testing.tim/</URL>
+    <License>BrauchNix-Lizenz C2012</License>
+    <Description Lang="en">Testmodul -&gt; A little Time Notifier...</Description>
+    <Description Lang="de">Testmodul -&gt; Eine kleiner Uhrzeit-Ansager </Description>
+    <Framework>3.1</Framework>
+    <IntroInstall Lang="en" Title="This is a nice choice for testing!" Type="post"></IntroInstall>
+    <IntroInstall Lang="de" Title="Dies ist eine nette Auswahl zum testen!" Type="post"></IntroInstall>
+    <BuildDate>2012-08-07 14:26:59</BuildDate>
+    <BuildHost>otrs.example.com</BuildHost>
+    <Filelist>
+        <File Location="Kernel/Config/Files/TimE.xml" Permission="644" Encode="Base64">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPG90cnNfY29uZmlnIHZlcnNpb249IjEuMCIgaW5pdD0iQXBwbGljYXRpb24iPgoKICAgIDxDb25maWdJdGVtIE5hbWU9IkZyb250ZW5kOjpNb2R1bGUjIyNBZ2VudFRpbWUiIFJlcXVpcmVkPSIwIiBWYWxpZD0iMSI+CiAgICAgICAgPERlc2NyaXB0aW9uIFRyYW5zbGF0YWJsZT0iMSI+RnJvbnRlbmQgbW9kdWxlIHJlZ2lzdHJhdGlvbiBmb3IgdGhlIGFnZW50IGludGVyZmFjZS48L0Rlc2NyaXB0aW9uPgogICAgICAgIDxHcm91cD5UaW1FPC9Hcm91cD4KICAgICAgICA8U3ViR3JvdXA+RnJvbnRlbmQ6OkFnZW50OjpNb2R1bGVSZWdpc3RyYXRpb248L1N1Ykdyb3VwPgogICAgICAgIDxTZXR0aW5nPgogICAgICAgICAgICA8RnJvbnRlbmRNb2R1bGVSZWc+CiAgICAgICAgICAgICAgICA8RGVzY3JpcHRpb24+VGltRTwvRGVzY3JpcHRpb24+CiAgICAgICAgICAgICAgICA8VGl0bGU+VGltRTwvVGl0bGU+CiAgICAgICAgICAgICAgICA8TmF2QmFyTmFtZT5UaW1FPC9OYXZCYXJOYW1lPgogICAgICAgICAgICA8L0Zyb250ZW5kTW9kdWxlUmVnPgogICAgICAgIDwvU2V0dGluZz4KICAgIDwvQ29uZmlnSXRlbT4KCgo8L290cnNfY29uZmlnPgo=</File>
+        <File Location="Kernel/Modules/AgentTime.pm" Permission="644" Encode="Base64">IyBPVFJTIERldmVsb3BlciBUcmFpbmluZwojIFp3ZWl0ZXMgTW9kdWwKCnBhY2thZ2UgS2VybmVsOjpNb2R1bGVzOjpBZ2VudFRpbWU7Cgp1c2Ugc3RyaWN0Owp1c2Ugd2FybmluZ3M7CgojS29uc3RydWt0b3IKc3ViIG5ldwp7CiAgICBteSAoICRUeXBlLCAlUGFyYW0gKSA9IEBfOwoKICAgICMgYWxsb2NhdGUgbmV3IGhhc2ggZm9yIG9iamVjdAogICAgbXkgJFNlbGYgPSB7JVBhcmFtfTsKICAgIGJsZXNzKCAkU2VsZiwgJFR5cGUgKTsKCiAgICByZXR1cm4gJFNlbGY7Cgp9CgpzdWIgUnVuCnsKCgogICAgbXkgKCAkU2VsZiwgJVBhcmFtICkgPSBAXzsKICAgIAoKCW15ICRvdXRwdXQgPSAkU2VsZi0+e0xheW91dE9iamVjdH0tPkhlYWRlcigKCQlSZWZyZXNoID0+ICc1JywKCQkjVGl0bGUgPT4gJ09UUlMgLSB0aGUgdGltRSAuLi4nCgkpOwoKCSRvdXRwdXQgLj0gJFNlbGYtPntMYXlvdXRPYmplY3R9LT5OYXZpZ2F0aW9uQmFyKCk7CgkKCW15ICR0aGV0aW1lID0gJFNlbGYtPntUaW1lT2JqZWN0fS0+U3lzdGVtVGltZTJUaW1lU3RhbXAoU3lzdGVtVGltZT0+JFNlbGYtPntUaW1lT2JqZWN0fS0+U3lzdGVtVGltZSgpLFR5cGU9PidTaG9ydCcpOwkKICAgICAgICAKCSRvdXRwdXQgLj0gJFNlbGYtPntMYXlvdXRPYmplY3R9LT5Ob3RpZnkoCiAgICAgICAgCUluZm8gPT4gcXEvRGllIGFrdHVlbGxlIFVocnplaXQ6ICR0aGV0aW1lLywKICAgICAgICApOwoKCQoKCQoJJG91dHB1dCAuPSAkU2VsZi0+e0xheW91dE9iamVjdH0tPkZvb3RlcigpOwkKCiAgICByZXR1cm4gJG91dHB1dDsKfQoKMTsK</File>
+        <File Location="Kernel/Output/HTML/Standard/AgentTime.dtl" Permission="644" Encode="Base64">IyBPVFJTIERldmVsb3BlciBUcmFpbmluZwoKCjx0YWJsZT4KPHRyIGhlaWdodD0iMTBweCI+PHRkPjwvdGQ+PC90cj4KPHRyPjx0ZD4KJFFEYXRheyJLZXkxIn0KPC90ZD48L3RyPgo8dHIgaGVpZ2h0PSIxMHB4Ij48dGQ+PC90ZD48L3RyPgo8L3RhYmxlPgoK</File>
+    </Filelist>
+</otrs_package>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>AgentTime</Name>
+    <Version>0.0.1</Version>
+    <Framework>3.1</Framework>
+    <Vendor>tiM.test</Vendor>
+    <URL>http://testing.tim/</URL>
+    <License>BrauchNix-Lizenz C2012</License>
+    <Description Lang="en">Testmodul -> A little Time Notifier...</Description>
+    <Description Lang="de">Testmodul -> Eine kleiner Uhrzeit-Ansager </Description>
+    <IntroInstall Type="post" Lang="en" Title="This is a nice choice for testing!"></IntroInstall>
+    <IntroInstall Type="post" Lang="de" Title="Dies ist eine nette Auswahl zum testen!"></IntroInstall>
+    <BuildDate>?</BuildDate>
+    <BuildHost>?</BuildHost>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/TimE.xml"></File>
+        <File Permission="644" Location="Kernel/Modules/AgentTime.pm"></File>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/AgentTime.dtl"></File>
+    </Filelist>
+</otrs_package>
